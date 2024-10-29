@@ -1,1 +1,3 @@
-{"template01":"p <b>#{name}</b>'s Pug source code","template02":"p Ciao <b>#{name}</b>, benvenuto!","free-template":"#{content}"}
+{
+	"access": "p Ciao <b>#{name}</b>, benvenuto!"
+}
