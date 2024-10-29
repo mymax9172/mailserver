@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 var corsOptions = {
-	origin: /mistercompliance\.it$/,
+	origin: [/mistercompliance\.it$/, "http://localhost:8080"],
 };
 
 // Middlewares
